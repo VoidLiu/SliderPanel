@@ -14,6 +14,12 @@
 		9FF333131AEE28C2009BC333 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF333121AEE28C2009BC333 /* Images.xcassets */; };
 		9FF333161AEE28C2009BC333 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF333141AEE28C2009BC333 /* LaunchScreen.xib */; };
 		9FF333221AEE28C3009BC333 /* SliderPanelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF333211AEE28C3009BC333 /* SliderPanelTests.m */; };
+		9FF333301AEE2908009BC333 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3332D1AEE2908009BC333 /* JASidePanelController.m */; };
+		9FF333311AEE2908009BC333 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3332F1AEE2908009BC333 /* UIViewController+JASidePanel.m */; };
+		9FF333331AEE2A2C009BC333 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF333321AEE2A2C009BC333 /* UIKit.framework */; };
+		9FF333361AEE2C52009BC333 /* JACentreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF333351AEE2C52009BC333 /* JACentreViewController.m */; };
+		9FF333391AEE2E4A009BC333 /* LeftPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF333381AEE2E4A009BC333 /* LeftPanelViewController.m */; };
+		9FF3333C1AEE2E58009BC333 /* RightPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF3333B1AEE2E58009BC333 /* RightPanelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		9FF3331B1AEE28C3009BC333 /* SliderPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF333201AEE28C3009BC333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FF333211AEE28C3009BC333 /* SliderPanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderPanelTests.m; sourceTree = "<group>"; };
+		9FF3332C1AEE2908009BC333 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		9FF3332D1AEE2908009BC333 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		9FF3332E1AEE2908009BC333 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		9FF3332F1AEE2908009BC333 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		9FF333321AEE2A2C009BC333 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FF333341AEE2C52009BC333 /* JACentreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JACentreViewController.h; sourceTree = "<group>"; };
+		9FF333351AEE2C52009BC333 /* JACentreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JACentreViewController.m; sourceTree = "<group>"; };
+		9FF333371AEE2E4A009BC333 /* LeftPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPanelViewController.h; sourceTree = "<group>"; };
+		9FF333381AEE2E4A009BC333 /* LeftPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftPanelViewController.m; sourceTree = "<group>"; };
+		9FF3333A1AEE2E58009BC333 /* RightPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightPanelViewController.h; sourceTree = "<group>"; };
+		9FF3333B1AEE2E58009BC333 /* RightPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightPanelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF333331AEE2A2C009BC333 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,8 @@
 		9FF332F91AEE28C2009BC333 = {
 			isa = PBXGroup;
 			children = (
+				9FF333321AEE2A2C009BC333 /* UIKit.framework */,
+				9FF3332B1AEE28F3009BC333 /* JASildePanelFrameWork */,
 				9FF333041AEE28C2009BC333 /* SliderPanel */,
 				9FF3331E1AEE28C3009BC333 /* SliderPanelTests */,
 				9FF333031AEE28C2009BC333 /* Products */,
@@ -85,6 +105,12 @@
 				9FF3330A1AEE28C2009BC333 /* AppDelegate.m */,
 				9FF3330C1AEE28C2009BC333 /* ViewController.h */,
 				9FF3330D1AEE28C2009BC333 /* ViewController.m */,
+				9FF333341AEE2C52009BC333 /* JACentreViewController.h */,
+				9FF333351AEE2C52009BC333 /* JACentreViewController.m */,
+				9FF333371AEE2E4A009BC333 /* LeftPanelViewController.h */,
+				9FF333381AEE2E4A009BC333 /* LeftPanelViewController.m */,
+				9FF3333A1AEE2E58009BC333 /* RightPanelViewController.h */,
+				9FF3333B1AEE2E58009BC333 /* RightPanelViewController.m */,
 				9FF3330F1AEE28C2009BC333 /* Main.storyboard */,
 				9FF333121AEE28C2009BC333 /* Images.xcassets */,
 				9FF333141AEE28C2009BC333 /* LaunchScreen.xib */,
@@ -117,6 +143,17 @@
 				9FF333201AEE28C3009BC333 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FF3332B1AEE28F3009BC333 /* JASildePanelFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				9FF3332C1AEE2908009BC333 /* JASidePanelController.h */,
+				9FF3332D1AEE2908009BC333 /* JASidePanelController.m */,
+				9FF3332E1AEE2908009BC333 /* UIViewController+JASidePanel.h */,
+				9FF3332F1AEE2908009BC333 /* UIViewController+JASidePanel.m */,
+			);
+			name = JASildePanelFrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF333311AEE2908009BC333 /* UIViewController+JASidePanel.m in Sources */,
 				9FF3330E1AEE28C2009BC333 /* ViewController.m in Sources */,
+				9FF3333C1AEE2E58009BC333 /* RightPanelViewController.m in Sources */,
+				9FF333361AEE2C52009BC333 /* JACentreViewController.m in Sources */,
 				9FF3330B1AEE28C2009BC333 /* AppDelegate.m in Sources */,
+				9FF333301AEE2908009BC333 /* JASidePanelController.m in Sources */,
 				9FF333081AEE28C2009BC333 /* main.m in Sources */,
+				9FF333391AEE2E4A009BC333 /* LeftPanelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

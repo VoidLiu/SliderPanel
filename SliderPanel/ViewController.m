@@ -14,14 +14,41 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewDidDisappear:YES];
+    NSLog(@"%@ will appear",self);
+    
+}
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidDisappear:YES];
+    NSLog(@"%@ did appear", self);
+    
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:YES];
+    NSLog(@"%@ will disappear", self);
+    
+}
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:YES];
+    NSLog(@"%@ did disappear", self);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)willMoveToParentViewController:(UIViewController *)parent
+{
+    [super willMoveToParentViewController:parent];
+    NSLog(@"%@ will move to parent view controller", self);
 }
+-(void)didMoveToParentViewController:(UIViewController *)parent
+{
+    [super didMoveToParentViewController:parent];
+    NSLog(@"%@ did move to parent view controller", self);
+    
+}
+
 
 @end
